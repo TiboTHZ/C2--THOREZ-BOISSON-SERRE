@@ -1,7 +1,7 @@
-import fs from 'fs';
-import csv from 'csv-parser';
+const fs = require('fs');
+const csv = require('csv-parser');
 
-class CSVReader {
+class CsvReader {
   constructor(filePath) {
     this.filePath = filePath;
     this.data = [];
@@ -21,4 +21,4 @@ class CSVReader {
   }
 }
 
-export default CSVReader
+module.exports = CsvReader;

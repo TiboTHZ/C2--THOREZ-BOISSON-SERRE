@@ -1,11 +1,10 @@
 {
   "name": "tournament-builder",
   "version": "1.0.0",
-  "type": "module",
   "description": "A simple tournament builder",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +22,8 @@
     "csv-parser": "^3.0.0",
     "mocha": "^10.3.0",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

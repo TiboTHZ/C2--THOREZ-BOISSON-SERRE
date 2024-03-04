@@ -48,4 +48,4 @@ class TournamentGenerator {
   }
 }
 
-export default TournamentGenerator;
+module.exports = TournamentGenerator;

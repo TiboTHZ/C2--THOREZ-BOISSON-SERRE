@@ -26,6 +26,6 @@ class TeamGenerator {
   }
 }
 
-export default  TeamGenerator
+module.exports = TeamGenerator;
 // Exemple d'utilisation
 
